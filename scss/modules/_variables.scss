@@ -1,0 +1,10 @@
+$main-color: #560618;
+$secondary-color:#e88fa1;
+$mobile: "(max-width:480px)";
+$tablet: "(min-width: 481px) and (max-width: 768px)";
+$desktop: "(min-width: 769px)";
+
+//@mixin --> @include
+/*@media #{$desktop} {
+    font-size: 20px;
+  }*/

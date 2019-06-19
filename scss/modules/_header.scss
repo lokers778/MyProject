@@ -1,0 +1,79 @@
+header {
+  .container{
+    height: 100px;
+
+
+  }
+  color:white;
+  background-color: $main-color;
+  h2 {
+    font-family: 'Nanum Brush Script', cursive;
+    width: 45%;
+    align-self: center;
+    font-size:4em;
+  //  background-color: yellow;
+  }
+
+  .logo {
+    width: 15%;
+    height: 100%;
+    background-image: url("../img/pagoda.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 50%;
+    background-position:center;
+  //  background-color: blue;
+  }
+
+  .menu {
+    background-color: $main-color;
+    flex:1;
+    align-self: center;
+
+    ul {
+
+      > li {
+        text-align: center;
+        display: inline-block;
+        width: 32%;
+        font-size: 2em;
+      }
+    }
+  }
+
+  @media screen and #{$tablet} {
+    .logo {
+      width: 20%;
+      background-size: 60%;
+    }
+    h2 {
+      width: 80%;
+    }
+    ul {
+      > li {
+        width: 30%;
+
+      }
+    }
+  }
+
+
+  @media screen and #{$mobile} {
+      .logo {
+        width: 20%;
+        background-image: url("../img/iconfinder_menu-alt_134216.png");
+        background-size: 80%;
+      }
+      h2 {
+        width: 80%;
+        text-align: center;
+        font-size:3.5em;
+        font-style: italic;
+      }
+    .menu{
+      display: none;
+    }
+    }
+
+
+  }

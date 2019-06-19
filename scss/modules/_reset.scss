@@ -1,0 +1,19 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  max-width: 1300px;
+  margin:0 auto;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  font-family: 'Swanky and Moo Moo', cursive;
+
+
+  @media screen and #{$mobile} {
+  justify-content: center;
+}
+
+}
