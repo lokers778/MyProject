@@ -1,0 +1,23 @@
+.slider{
+  background-color: $secondary-color;
+margin-top: 100px;
+height: 50vh;
+  figure{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    figcaption{
+      position: absolute;
+      top:30px;
+      background-color: #560618;
+      opacity: 0.5;
+    }
+    img{
+      height: 100%;
+      width: 100%;
+    }
+  }
+  @media #{$tablet} {
+    margin-top: 147px;
+  }
+}

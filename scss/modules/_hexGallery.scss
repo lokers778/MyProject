@@ -1,0 +1,157 @@
+.hexicalGallery {
+  width: 100%;
+  background-color: $main-color;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding-bottom: 50px;
+
+  .hexagon {
+    width: 270px;
+    height: 148.5px;
+    background: white;
+    position: relative;
+    margin: 40px 5px;
+    font-size: 20px;
+
+    &:nth-of-type(1) {
+      order: 1;
+    }
+
+    &:nth-of-type(2) {
+      order: 2;
+    }
+
+    &:nth-of-type(3) {
+      order: 3;
+    }
+
+    &:nth-of-type(4) {
+      order: 4;
+    }
+
+    &:nth-of-type(5) {
+      margin-left: 145px;
+      order: 5;
+    }
+
+    &:nth-of-type(6) {
+      order: 6;
+    }
+
+    &:nth-of-type(7) {
+      order: 7;
+    }
+
+    &:nth-of-type(8) {
+      order: 8;
+    }
+
+    &:nth-of-type(9) {
+      order: 9;
+    }
+
+    &:nth-of-type(10) {
+      order: 10;
+    }
+
+    &:nth-of-type(11) {
+      order: 11;
+    }
+
+    &:nth-of-type(12) {
+      order: 12;
+    }
+
+    @media (max-width: 1274px) {
+      &:nth-of-type(4) {
+        order: 13;
+        margin-left: 145px;
+      }
+      &:nth-of-type(12) {
+        order: 14;
+      }
+      &:nth-of-type(11) {
+        order: 15;
+      }
+    }
+    @media (max-width: 994px) {
+      &:nth-of-type(7) {
+        order: 16;
+      }
+    }
+    @media (max-width: 854px) {
+      &:nth-of-type(5) {
+        margin-left: 0px;
+      }
+      &:nth-of-type(3) {
+        margin-left: 145px;
+      }
+      &:nth-of-type(9) {
+        margin-left: 145px;
+      }
+      &:nth-of-type(4) {
+        margin-left: 0px;
+      }
+      &:nth-of-type(11) {
+        margin-left: 145px;
+      }
+    }
+    @media (max-width: 714px) {
+      &:nth-of-type(5) {
+        order: 17;
+      }
+      &:nth-of-type(12) {
+        order: 18;
+        margin-left: 145px;
+      }
+
+    }
+    @media (max-width: 574px) {
+
+      margin: 82px auto !important;
+      width: 330px;
+    }
+  }
+
+
+  .hexagon:before {
+    content: "";
+    position: absolute;
+    top: -67.5px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 135px solid transparent;
+    border-right: 135px solid transparent;
+    border-bottom: 67.5px solid white;;
+    @media (max-width: 574px) {
+      top: -82.5px;
+      border-left: 165px solid transparent;
+      border-right: 165px solid transparent;
+      border-bottom: 82.5px solid white;;
+    }
+  }
+
+
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    bottom: -67.5px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 135px solid transparent;
+    border-right: 135px solid transparent;
+    border-top: 67.5px solid white;
+    @media (max-width: 574px) {
+      bottom: -82.5px;
+      border-left: 165px solid transparent;
+      border-right: 165px solid transparent;
+      border-top: 82.5px solid white;
+    }
+  }
+
+
+}
