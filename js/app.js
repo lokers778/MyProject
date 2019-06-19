@@ -36,10 +36,18 @@ $(function () {
 
         }
         console.log($figure)
+    };
+   let $hexDiv= $("section.hexicalGallery" ).find("div")
+    for(let i=0;i<$hexDiv.length;i++){
+        $hexDiv.on("click",(e)=>{
+           let $allImageHex= target.find(">img")
+            $allImageHex.attr("alt")
+            console.log( $allImageHex.attr("alt"))
+
+        });
     }
 
-
-gallery()
-    menuDrop()
+gallery();
+    menuDrop();
 
 });
