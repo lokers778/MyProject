@@ -1,4 +1,9 @@
 header {
+  position:fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
   .container{
     height: 100px;
 
@@ -11,7 +16,6 @@ header {
     width: 45%;
     align-self: center;
     font-size:4em;
-  //  background-color: yellow;
   }
 
   .logo {
@@ -20,9 +24,8 @@ header {
     background-image: url("../img/pagoda.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-size: 50%;
+    background-size: 88px 85px;
     background-position:center;
-  //  background-color: blue;
   }
 
   .menu {
@@ -44,7 +47,7 @@ header {
   @media screen and #{$tablet} {
     .logo {
       width: 20%;
-      background-size: 60%;
+      background-size: 68px 65px;
     }
     h2 {
       width: 80%;
@@ -59,21 +62,42 @@ header {
 
 
   @media screen and #{$mobile} {
-      .logo {
-        width: 20%;
-        background-image: url("../img/iconfinder_menu-alt_134216.png");
-        background-size: 80%;
-      }
-      h2 {
-        width: 80%;
-        text-align: center;
-        font-size:3.5em;
-        font-style: italic;
-      }
-    .menu{
+    .logo {
+      width: 20%;
+      background-image: url("../img/iconfinder_menu-alt_134216.png");
+      background-size: 45px 50px;
+    }
+    h2 {
+      width: 70%;
+      text-align: center;
+      font-size: 3.1em;
+      font-style: italic;
+    }
+    .menu {
       display: none;
     }
+
+    .canvasMenu {
+      margin-top: 100px;
+      height: 100%;
+      width: 50%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: $main-color;
+      overflow-x: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .li {
+        color: white;
+        display: block;
+       margin-left: 20px;
+
+
+      }
     }
-
-
+  }
   }
