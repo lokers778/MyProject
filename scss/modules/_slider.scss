@@ -19,7 +19,7 @@
       height: 4%;
       width: 30%;
       left: 20%;
-      top: 97%;
+      top: 85%;
       position:absolute;
       cursor: pointer;
       z-index: 1;
@@ -27,10 +27,10 @@
       border:none;
       color:white;
       @media #{$tablet}{
-        top: 90%;
+        top: 77%;
       }
       @media #{$mobile}{
-        top: 76%;
+        top: 66%;
       }
     }
 
@@ -38,7 +38,7 @@
       height: 4%;
       width: 30%;
       right: 20%;
-      top: 97%;
+      top: 85%;
       position:absolute;
       cursor: pointer;
       background-color: $main-color;
@@ -48,10 +48,10 @@
 
 
       @media #{$tablet}{
-        top: 90%;
+        top: 77%;
       }
       @media #{$mobile}{
-        top: 76%;
+        top: 66%;
       }
     }
 
@@ -99,17 +99,19 @@
       }
     }
         figcaption {
+          font-weight: 700;
           position: absolute;
           width: 50%;
           height: 100%;
           bottom: 0px;
           right: 0px;
-          background-color: rgba(255,255,255,0.9);
+          background-color: rgba(255,255,255,1);
           opacity: 0.5;
           display: flex;
           align-items: center;
           justify-content: flex-start;
           flex-direction: column;
+
 
           color:black;
           @media #{$tablet} {

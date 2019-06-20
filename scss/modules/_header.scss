@@ -13,7 +13,7 @@ header {
   background-color: $main-color;
   h2 {
     font-family: 'Nanum Brush Script', cursive;
-    width: 45%;
+    width: 40%;
     align-self: center;
     font-size:4em;
   }
@@ -40,6 +40,10 @@ header {
         display: inline-block;
         width: 32%;
         font-size: 2em;
+      a{
+        text-decoration: none;
+        color:white;
+      }
       }
     }
   }

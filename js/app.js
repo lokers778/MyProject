@@ -54,7 +54,7 @@ $(function () {
     }
 
 
-    let AppPanel = () => {
+    let appPanel = () => {
        let  openApp =(pageName) =>{
            let $app = $(".App");
             for (let i = 0; i < $app.length; i++) {
@@ -62,9 +62,9 @@ $(function () {
             }
            $(pageName).css("display","block");
 
-           $("section.appPanel > div > button:nth-child(1)").css({'background-color': "black","border":"none"})
-           $("section.appPanel > div > button:nth-child(2)").css({'background-color': "black","border":"none"})
-           $("section.appPanel > div > button:nth-child(3)").css({'background-color': "black","border":"none"})
+           $("section.appPanel > div > button:nth-child(1)").css({'background-color': "black","border":"none"});
+           $("section.appPanel > div > button:nth-child(2)").css({'background-color': "black","border":"none"});
+           $("section.appPanel > div > button:nth-child(3)").css({'background-color': "black","border":"none"});
         };
 
         openApp();
@@ -81,9 +81,44 @@ $(function () {
             $(e.target).css({"background-color": "#560618",'border':"white solid 1px"});
 
         });
+
+
+
+
+
         $("section.appPanel > div > button:nth-child(2)").click()
     };
-    AppPanel();
+
+    let japanNews =()=>{
+        let url = "https://newsapi.org/v2/top-headlines?q=japan&apiKey=b32e14d9ea934a4eb3d9075c6552f99a"
+        $.ajax({
+            url: url,
+            dataType: 'json',
+            "language": "en",
+            "country": "jp",
+        }).done(function (response) {
+            console.log(response);
+            printNews(response.articles);
+        }).fail(function (error) {
+            console.error(error);
+        });
+    };
+   let $newsDiv =$("#news > div");
+    japanNews();
+    let printNews =(news)=>{
+        console.log(news);
+        $.each(news, function (index, value) {
+            let $singleNewsTitle= $("<h2>", {text: (index + 1)+" " + value.title });
+            let $singleNewsDescription=$("<h4>",{text: value.description});
+            let $singleNewsContent=$("<p>",{text: value.content});
+            let $singleNewsUrl=$("<span>",{text: value.url});
+            $newsDiv.append($singleNewsTitle).append($singleNewsDescription).append($singleNewsContent).append($singleNewsUrl)
+
+        });
+
+    };
+
+    appPanel();
     gallery();
     menuDrop();
 
