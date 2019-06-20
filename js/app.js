@@ -53,6 +53,22 @@ $(function () {
         $(singleEl).css("display","block")
     }
 
+/*let this1 =this
+    let AppPanel = () => {
+       let  openApp =(pageName) =>{
+           let $app = $(".App");
+            for (let i = 0; i < $app.length; i++) {
+                $($app[i]).css("display", "none");
+            }
+            $(pageName).style.display = "block";
+
+            $("section.appPanel > div > button:nth-child(2)").click();
+        }
+        $("section.appPanel > div > button:nth-child(1)").on('click',openApp("#App1"));
+      //  $("section.appPanel > div > button:nth-child(2)").on('click',openApp("#App2"));
+        //$("section.appPanel > div > button:nth-child(2)").on('click',openApp("#App3"));
+    }*/
+   // AppPanel();
     gallery();
     menuDrop();
 
