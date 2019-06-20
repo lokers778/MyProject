@@ -1,6 +1,12 @@
 .appPanel {
   .container {
+    @media #{$tablet}{
+      flex-direction: column;
+    height: 1000px;
+    }
+
     .AppButton {
+      z-index: 1;
       background-color: black;
       color: white;
       border: none;
@@ -8,17 +14,51 @@
       cursor: pointer;
       padding: 20px 20px;
       width: 33.33%;
+      @media #{$tablet}{
+        width: 100%;
+
+      }
+      @media #{$mobile}{
+        width: 100%;
+        &:nth-child(1){
+      order:1;
+        }
+        &:nth-child(2){
+          order:3;
+        }
+        &:nth-child(3){
+          order:5;
+        }
+      }
       &:hover{
-        background-color: $secondary-color;
+        background-color: $secondary-color!important;
       }
 
     }
     .App {
       color: white;
-      display: none;
       padding: 100px 20px;
-      height: 300px;
+      min-height: 300px;
       width: 100%;
+      color:black;
+      border: black 2px solid;
+      background-color: white;
+      @media #{$mobile}{
+        &:nth-child(4) {
+          order: 2;
+        }
+        &:nth-child(5) {
+          order: 4;
+        }
+        &:nth-child(6) {
+          order: 6;
+        }
+      }
+      #mapApp {
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+      }
     }
   }
 }

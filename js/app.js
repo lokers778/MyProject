@@ -53,22 +53,37 @@ $(function () {
         $(singleEl).css("display","block")
     }
 
-/*let this1 =this
+
     let AppPanel = () => {
        let  openApp =(pageName) =>{
            let $app = $(".App");
             for (let i = 0; i < $app.length; i++) {
                 $($app[i]).css("display", "none");
             }
-            $(pageName).style.display = "block";
+           $(pageName).css("display","block");
 
-            $("section.appPanel > div > button:nth-child(2)").click();
-        }
-        $("section.appPanel > div > button:nth-child(1)").on('click',openApp("#App1"));
-      //  $("section.appPanel > div > button:nth-child(2)").on('click',openApp("#App2"));
-        //$("section.appPanel > div > button:nth-child(2)").on('click',openApp("#App3"));
-    }*/
-   // AppPanel();
+           $("section.appPanel > div > button:nth-child(1)").css({'background-color': "black","border":"none"})
+           $("section.appPanel > div > button:nth-child(2)").css({'background-color': "black","border":"none"})
+           $("section.appPanel > div > button:nth-child(3)").css({'background-color': "black","border":"none"})
+        };
+
+        openApp();
+
+
+        $("section.appPanel > div > button:nth-child(3)").on('click', (e)=>{openApp("#App3")
+
+            $(e.target).css({"background-color": "#560618",'border':"white solid 1px"});
+        });
+        $("section.appPanel > div > button:nth-child(2)").on('click',(e)=>{openApp("#App2")
+            $(e.target).css({"background-color": "#560618",'border':"white solid 1px"});
+        });
+        $("section.appPanel > div > button:nth-child(1)").on('click',(e)=>{openApp("#App1")
+            $(e.target).css({"background-color": "#560618",'border':"white solid 1px"});
+
+        });
+        $("section.appPanel > div > button:nth-child(2)").click()
+    };
+    AppPanel();
     gallery();
     menuDrop();
 
