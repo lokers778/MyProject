@@ -64,8 +64,12 @@ header {
   @media screen and #{$mobile} {
     .logo {
       width: 20%;
-      background-image: url("../img/iconfinder_menu-alt_134216.png");
-      background-size: 45px 50px;
+      background-image: url("../img/logo.png");
+      background-size:100px 80px;
+      background-repeat: no-repeat;
+      &:hover{
+        cursor:pointer;
+      }
     }
     h2 {
       width: 70%;
@@ -82,7 +86,7 @@ header {
       height: 100%;
       width: 50%;
       position: fixed;
-      z-index: 1;
+      z-index: 3;
       top: 0;
       left: 0;
       background-color: $main-color;
@@ -90,11 +94,13 @@ header {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: center;
 
-      .li {
+
+      li {
         color: white;
         display: block;
-       margin-left: 20px;
+        margin:50px 50px;
 
 
       }

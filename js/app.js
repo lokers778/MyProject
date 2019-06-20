@@ -11,7 +11,7 @@ $(function () {
         let toggleOff = () => {
             $menu.removeClass("canvasMenu");
         };
-        $logo.on("click",()=> {
+        $logo.on("click", () => {
             if ($menu.hasClass("canvasMenu")) {
                 toggleOff()
             } else {
@@ -23,31 +23,37 @@ $(function () {
 
     };
 
-    let gallery =()=>{
-        var nextButton = $("<button></button>");
-        var prevButton = $("<button></button>");
+    let gallery = () => {
         let index=1;
-        let $figure= $(".gallery").find("figure");
-        let $ImageAll =$figure.find("img");
-        for (let i = 0; i < $figure.length; i++) {
-            let ID=$figure[i].attr("id");
-            $figure.after(nextButton);
-            $figure.before(prevButton);
-
-        }
-        console.log($figure)
-    };
-   let $hexDiv= $("section.hexicalGallery" ).find("div")
-    for(let i=0;i<$hexDiv.length;i++){
-        $hexDiv.on("click",(e)=>{
-           let $allImageHex= target.find(">img")
-            $allImageHex.attr("alt")
-            console.log( $allImageHex.attr("alt"))
-
+        let gallery=$("section.slider > div > div.gallery>figure");
+        let nextButton = $("section.slider > div > button:nth-child(3)");
+        let prevButton = $("section.slider > div > button:nth-child(1)");
+        let singleEl= gallery[index-1];
+        $(singleEl).css("display","")
+        nextButton.on("click", () => {
+            $(singleEl).css("display","");
+            index++;
+            if(index>11){
+                index=1;
+            }
+            console.log(index)
+            singleEl= gallery[index-1];
+            $(singleEl).css("display","block")
         });
+        prevButton.on("click", () => {
+            $(singleEl).css("display","");
+            index--;
+            if(index<1) {
+                index = 11
+            }
+            console.log(index)
+            singleEl= gallery[index-1];
+            $(singleEl).css("display","block")
+        });
+        $(singleEl).css("display","block")
     }
 
-gallery();
+    gallery();
     menuDrop();
 
 });

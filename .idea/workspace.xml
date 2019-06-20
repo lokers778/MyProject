@@ -2,61 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ab6a949-2c85-47df-9ac8-ac7c623f053c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/png/bamboo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/biwa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/cherry-blossom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/daruma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/dohyo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/ema.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/fude.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/fuji-mountain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/geisha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/geta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/hamaya.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/hannya.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/haori.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/japan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/kamon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/kasa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/katana-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/katana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/kimono.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/ko-omote.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/kogai-and-kushi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/koinobori.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/lotus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/maneki-neko.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/ninja.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/noodles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/omamori.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/origami.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/pagoda.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/paper-lantern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/rice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/sake.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/sensu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/shamisen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/shinto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/soup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/sun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/sushi-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/sushi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/suzuri.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/taiko.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/tatami.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/tea.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/temple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/torii.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/uchiwa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/wagasa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/washi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/wind-bell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/png/zen-garden.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/myLogo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/modules/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/modules/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/modules/_hexGallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/modules/_hexGallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/modules/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/modules/_slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/modules/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/modules/_variables.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,33 +29,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="105">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/modules/_hexGallery.scss">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scss/modules/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="120" column="7" lean-forward="true" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
+            <state relative-caret-position="210">
+              <caret line="90" column="14" lean-forward="true" selection-start-line="90" selection-start-column="14" selection-end-line="90" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/modules/_slider.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="25" column="23" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="25" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+            <state relative-caret-position="570">
+              <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -116,6 +82,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>bac</find>
+      <find>contain</find>
+      <find>button</find>
+      <find>osa</find>
+      <find>z-i</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -124,23 +94,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/scss/modules/_variables.scss" />
         <option value="$PROJECT_DIR$/scss/modules/_reset.scss" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/scss/modules/_header.scss" />
-        <option value="$PROJECT_DIR$/scss/modules/_slider.scss" />
         <option value="$PROJECT_DIR$/scss/main.scss" />
         <option value="$PROJECT_DIR$/scss/modules/hexGallery.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/scss/modules/_variables.scss" />
         <option value="$PROJECT_DIR$/scss/modules/_hexGallery.scss" />
         <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/modules/_slider.scss" />
+        <option value="$PROJECT_DIR$/scss/modules/_header.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="52" />
+    <option name="x" value="38" />
     <option name="y" value="27" />
     <option name="width" value="1717" />
     <option name="height" value="883" />
@@ -190,13 +160,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/png" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/png" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/img/gallery" />
     </key>
@@ -232,12 +203,12 @@
       <workItem from="1560757493899" duration="598000" />
       <workItem from="1560777336074" duration="638000" />
       <workItem from="1560803336913" duration="1835000" />
-      <workItem from="1560861902908" duration="37332000" />
+      <workItem from="1560861902908" duration="56584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40403000" />
+    <option name="totallyTimeSpent" value="59655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="990" extended-state="6" />
@@ -266,33 +237,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/png/ema.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/png/fude.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/png/fuji-mountain.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/png/dohyo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/png/daruma.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/png/cherry-blossom.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/png/geisha.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/png/hamaya.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/png/hannya.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/png/haori.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -407,34 +351,77 @@
     <entry file="file://$PROJECT_DIR$/img/png/taiko.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/pagoda.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/myLogo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/gallery/Chūbu-Sangaku National Park .jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/iconfinder_menu-alt_134216.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/scss/modules/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_reset.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/modules/_hexGallery.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="120" column="7" lean-forward="true" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
+        <state relative-caret-position="405">
+          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        <state relative-caret-position="570">
+          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_slider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="25" column="23" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="90" column="14" lean-forward="true" selection-start-line="90" selection-start-column="14" selection-end-line="90" selection-end-column="14" />
         </state>
       </provider>
     </entry>

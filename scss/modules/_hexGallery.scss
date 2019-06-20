@@ -17,8 +17,21 @@
     background-color: white;
     display:flex;
     justify-content: center;
+    span{
+      display: none;
+    }
     &:hover{
       cursor:pointer;
+      span{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      img{
+        display:none
+      }
     }
     img{
       height: 100%;
