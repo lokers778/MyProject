@@ -16,42 +16,55 @@
       height: 550px;
     }
     button:first-of-type{
-      height: 4%;
-      width: 30%;
-      left: 20%;
-      top: 85%;
+      height: 10%;
+      width: 2%;
+      left: 7%;
+      top: 60%;
       position:absolute;
       cursor: pointer;
       z-index: 1;
-      background-color: $main-color;
+      background-color: transparent;
       border:none;
       color:white;
+      border-top: 35px solid transparent;
+      border-bottom: 35px solid transparent;
+      outline: none;
+      border-right: 30px solid $main-color;
+
       @media #{$tablet}{
-        top: 77%;
+        top: 59%;
+        left: 6%;
       }
       @media #{$mobile}{
-        top: 66%;
+        top: 79%;
+        left: 35%;
       }
     }
 
     button:last-of-type{
-      height: 4%;
-      width: 30%;
-      right: 20%;
-      top: 85%;
+      height: 10%;
+      width: 2%;
+      right: 7%;
+      top: 60%;
       position:absolute;
       cursor: pointer;
-      background-color: $main-color;
+      background-color: transparent;
       border:none;
       color:white;
+      border-top: 35px solid transparent;
+      border-bottom: 35px solid transparent;
+      outline: none;
+      border-left: 30px solid $main-color;
 
 
 
       @media #{$tablet}{
-        top: 77%;
+        top: 59%;
+        right: 6%;
       }
       @media #{$mobile}{
-        top: 66%;
+        top: 79%;
+        right: 35%;
       }
     }
 
