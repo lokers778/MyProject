@@ -2,7 +2,6 @@ $(function () {
 
 
     let menuDrop = () => {
-        console.log("hello");
         let $menu = $('.menu');
         let $logo = $('.logo');
         let toggleOn = () => {
@@ -117,57 +116,62 @@ $(function () {
         });
 
     };
+   let canvasFunctions =()=> {
+       let palette = $("#canvas");
+       let context = palette[0].getContext("2d");
+       context.canvas.width = window.innerWidth;
+       context.canvas.height = window.innerHeight;
 
-    let drawCanvas = () => {
-        let palette = $("#canvas");
-        console.log(palette)
-        let context = palette[0].getContext("2d");
-
-            let x = Math.random() * palette.width();
-            let y = Math.random() * palette.width();
-            console.log(x + y)
-            let table = ["工", "已", "巾", "干", "幺", "广", "廴", "廾", "弋", "弓", "ヨ", "彑", "彡", "彳", "忄", "扌", "氵", "犭", "門", "隶", "隹", "雨", "青", "非", "奄", "岡", "免", "斉", "面", "革", "韭", "音", "頁", "風", "飛", "食", "首", "香", "品", "馬", "骨", "高", "髟", "鬥", "鬯", "鬲"];
-            let randomArrayElement = Math.floor(Math.random() * (46))
-            context.font = "10px Arial";
-            //console.log(randomArrayElement)
-            context.fillText(table[randomArrayElement], x, y);
-        }
-    drawTimer = window.setInterval(drawCanvas, 250);
+       let drawCanvas = () => {
 
 
-    let drawCanvas2 = () => {
-        let palette = $("#canvas");
-        console.log(palette)
-        let context = palette[0].getContext("2d");
-        let paint = false;
-
-        palette.mousedown((e)=> {
-            paint= true;
-            console.log("click")
-            draw(e.pageX, e.pageY);
-        });
-
-        palette.mouseup( (e)=>{
-            paint = false;
-            draw(e.pageX, e.pageY);
-            console.log("click")
-        });
-        palette.mousemove(function(e){
-            if(paint === true){
-                draw(e.pageX, e.pageY);
-            }
-        });
-        let draw = (xPos, yPos) => {
-            context.beginPath();
-            context.fillStyle = "black";
-            context.arc(xPos - $("canvas").offset().left, yPos - $("canvas").offset().top, 4, 0, 2 * Math.PI);
-            context.fill();
-            context.closePath();
-        }
-    };
+           let x = Math.random() * $("Canvas").width();
+           let y = Math.random() * $("Canvas").height();
+           console.log(x, y);
+           let table = ["工", "已", "巾", "干", "幺", "广", "廴", "廾", "弋", "弓", "ヨ", "彑", "彡", "彳", "忄", "扌", "氵", "犭", "門", "隶", "隹", "雨", "青", "非", "奄", "岡", "免", "斉", "面", "革", "韭", "音", "頁", "風", "飛", "食", "首", "香", "品", "馬", "骨", "高", "髟", "鬥", "鬯", "鬲"];
+           let randomArrayElement = Math.floor(Math.random() * (46))
+           context.font = "15px Arial";
+           context.fillText(table[randomArrayElement], x, y);
+       };
+       drawTimer = window.setInterval(drawCanvas, 500);
 
 
-    drawCanvas2();
+       let drawCanvasKanji = () => {
+           let palette = $("#canvas");
+           let context = palette[0].getContext("2d");
+           let paint = false;
+
+
+           palette.mousedown((e) => {
+               paint = true;
+               draw(e.pageX, e.pageY);
+           });
+
+           palette.mouseup((e) => {
+               paint = false;
+               draw(e.pageX, e.pageY);
+           });
+           palette.mousemove(function (e) {
+               if (paint === true) {
+                   draw(e.pageX, e.pageY);
+               }
+           });
+           let draw = (xPos, yPos) => {
+               var rect = canvas.getBoundingClientRect();
+               let scaleX = canvas.width / rect.width;
+                 let  scaleY = canvas.height / rect.height;
+               context.beginPath();
+               context.fillStyle = "black";
+               context.arc((xPos - rect.left)*scaleX, (yPos - rect.right) *scaleY, 20, 0, 2 * Math.PI);
+               context.fill();
+               context.closePath();
+           }
+       };
+
+
+       drawCanvasKanji();
+   }
+   canvasFunctions()
     appPanel();
     gallery();
     menuDrop();
