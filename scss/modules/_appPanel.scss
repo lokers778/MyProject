@@ -74,6 +74,18 @@
     }
       #App2{
         background-image:url("../img/wood_texture.jpg");
+        padding: 0;
+
+      canvas{
+        background-image: url("../img/grunge-stained-old-paper-texture (1).jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: wheat;
+        height: 100%;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+      }
       }
     #App1{
       background-image:url("../img/old-map-vintage-texture-free-background-1.jpg");
