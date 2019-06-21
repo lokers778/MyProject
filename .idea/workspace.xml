@@ -45,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="122" column="56" lean-forward="true" selection-start-line="122" selection-start-column="56" selection-end-line="122" selection-end-column="56" />
+            <state relative-caret-position="165">
+              <caret line="123" column="10" selection-start-line="123" selection-start-column="10" selection-end-line="123" selection-end-column="10" />
               <folding>
                 <element signature="e#530#1493#0" />
                 <element signature="e#1521#2787#0" />
@@ -184,16 +184,15 @@
       <workItem from="1560777336074" duration="638000" />
       <workItem from="1560803336913" duration="1835000" />
       <workItem from="1560861902908" duration="60523000" />
-      <workItem from="1561007657259" duration="49677000" />
+      <workItem from="1561007657259" duration="49948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113271000" />
+    <option name="totallyTimeSpent" value="113542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="990" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18977332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -429,8 +428,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="122" column="56" lean-forward="true" selection-start-line="122" selection-start-column="56" selection-end-line="122" selection-end-column="56" />
+        <state relative-caret-position="165">
+          <caret line="123" column="10" selection-start-line="123" selection-start-column="10" selection-end-line="123" selection-end-column="10" />
           <folding>
             <element signature="e#530#1493#0" />
             <element signature="e#1521#2787#0" />
