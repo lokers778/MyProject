@@ -14,25 +14,32 @@
     margin: 38px 5px;
     font-size: 20px;
     background-color: white;
-    display:flex;
+    display: flex;
     justify-content: center;
-    span{
+
+    span {
       display: none;
     }
-    &:hover{
-      cursor:pointer;
-      span{
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+      transition: 1.5s;
+
+      span {
         display: block;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
       }
-      img{
-        display:none
+
+      img {
+        display: none
       }
     }
-    img{
+
+    img {
       height: 100%;
       width: 70%;
 
@@ -89,7 +96,6 @@
     &:nth-of-type(12) {
       order: 12;
     }
-
 
 
     @media (max-width: 1274px) {

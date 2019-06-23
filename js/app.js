@@ -121,7 +121,6 @@ $(function () {
         let context = palette[0].getContext("2d");
         context.canvas.width = window.innerWidth -220 ;
         context.canvas.height = window.innerHeight -200;
-        //
 
         let drawCanvas = () => {
 

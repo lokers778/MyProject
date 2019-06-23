@@ -72,6 +72,8 @@ header {
       background-size:100px 80px;
       background-repeat: no-repeat;
       &:hover{
+        transition: 2s;
+        transform: scale(1.1);
         cursor:pointer;
       }
     }
