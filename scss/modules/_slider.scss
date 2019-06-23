@@ -19,26 +19,26 @@
       height: 10%;
       width: 2%;
       left: 7%;
-      top: 45vh;
+      top: 380px;
       position:absolute;
       cursor: pointer;
       z-index: 1;
       background-color: transparent;
       border:none;
       color:white;
-      border-top: 45px solid transparent;
-      border-bottom: 45px solid transparent;
+      border-top: 50px solid transparent;
+      border-bottom: 50px solid transparent;
       outline: none;
       border-right: 30px solid $main-color;
       @media screen and (min-width: 1540px){
         left: 15%;
       }
       @media #{$tablet}{
-        top: 45vh;
+        top: 400px;
         left: 5%;
       }
       @media #{$mobile}{
-        top: 63vh;
+        top: 553px;
         left: 35%;
       }
     }
@@ -47,14 +47,14 @@
       height: 10%;
       width: 2%;
       right: 7%;
-      top: 45vh;
+      top: 380px;
       position:absolute;
       cursor: pointer;
       background-color: transparent;
       border:none;
       color:white;
-      border-top: 45px solid transparent;
-      border-bottom: 45px solid transparent;
+      border-top: 50px solid transparent;
+      border-bottom: 50px solid transparent;
       outline: none;
       border-left: 30px solid $main-color;
 
@@ -63,11 +63,11 @@
         right: 15%;
       }
       @media #{$tablet}{
-        top: 45vh;
+        top: 400px;
         right: 5%;
       }
       @media #{$mobile}{
-        top: 63vh;
+        top: 553px;
         right: 35%;
       }
     }
