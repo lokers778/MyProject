@@ -19,24 +19,26 @@
       height: 10%;
       width: 2%;
       left: 7%;
-      top: 60%;
+      top: 45%;
       position:absolute;
       cursor: pointer;
       z-index: 1;
       background-color: transparent;
       border:none;
       color:white;
-      border-top: 35px solid transparent;
-      border-bottom: 35px solid transparent;
+      border-top: 45px solid transparent;
+      border-bottom: 45px solid transparent;
       outline: none;
       border-right: 30px solid $main-color;
-
+      @media screen and (min-width: 1540px){
+        left: 15%;
+      }
       @media #{$tablet}{
-        top: 59%;
-        left: 6%;
+        top: 45%;
+        left: 5%;
       }
       @media #{$mobile}{
-        top: 79%;
+        top: 63%;
         left: 35%;
       }
     }
@@ -45,25 +47,27 @@
       height: 10%;
       width: 2%;
       right: 7%;
-      top: 60%;
+      top: 45%;
       position:absolute;
       cursor: pointer;
       background-color: transparent;
       border:none;
       color:white;
-      border-top: 35px solid transparent;
-      border-bottom: 35px solid transparent;
+      border-top: 45px solid transparent;
+      border-bottom: 45px solid transparent;
       outline: none;
       border-left: 30px solid $main-color;
 
 
-
+      @media screen and (min-width: 1540px){
+        right: 15%;
+      }
       @media #{$tablet}{
-        top: 59%;
-        right: 6%;
+        top: 45%;
+        right: 5%;
       }
       @media #{$mobile}{
-        top: 79%;
+        top: 63%;
         right: 35%;
       }
     }
