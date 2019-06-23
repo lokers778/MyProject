@@ -19,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/modules/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
+            <state relative-caret-position="855">
               <caret line="102" column="26" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
             </state>
           </provider>
@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/modules/_slider.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+            <state relative-caret-position="105">
+              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -68,6 +68,7 @@
       <find>hei</find>
       <find>hov</find>
       <find>hover</find>
+      <find>top</find>
       <find>pointer</find>
     </findStrings>
   </component>
@@ -187,12 +188,12 @@
       <workItem from="1560861902908" duration="60523000" />
       <workItem from="1561007657259" duration="49948000" />
       <workItem from="1561119192002" duration="2912000" />
-      <workItem from="1561271883173" duration="2773000" />
+      <workItem from="1561271883173" duration="3504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119227000" />
+    <option name="totallyTimeSpent" value="119958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="990" extended-state="6" />
@@ -420,15 +421,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/modules/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
+        <state relative-caret-position="855">
           <caret line="102" column="26" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/modules/_slider.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        <state relative-caret-position="105">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
