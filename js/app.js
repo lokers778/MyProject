@@ -35,7 +35,6 @@ $(function () {
             if (index > 11) {
                 index = 1;
             }
-            console.log(index)
             singleEl = gallery[index - 1];
             $(singleEl).css("display", "block")
         });
@@ -45,7 +44,6 @@ $(function () {
             if (index < 1) {
                 index = 11
             }
-            console.log(index)
             singleEl = gallery[index - 1];
             $(singleEl).css("display", "block")
         });
@@ -105,7 +103,6 @@ $(function () {
     let $newsDiv = $("#news > div");
     japanNews();
     let printNews = (news) => {
-        console.log(news);
         $.each(news, function (index, value) {
             let $singleNewsTitle = $("<h2>", {text: (index + 1) + " " + value.title});
             let $singleNewsDescription = $("<h4>", {text: value.description});
@@ -126,7 +123,6 @@ $(function () {
 
             let x = Math.random() * $("Canvas").width();
             let y = Math.random() * $("Canvas").height();
-            console.log(x, y);
             let table = ["工", "已", "巾", "干", "幺", "广", "廴", "廾", "弋", "弓", "ヨ", "彑", "彡", "彳", "忄", "扌", "氵", "犭", "門", "隶", "隹", "雨", "青", "非", "奄", "岡", "免", "斉", "面", "革", "韭", "音", "頁", "風", "飛", "食", "首", "香", "品", "馬", "骨", "高", "髟", "鬥", "鬯", "鬲"];
             let randomArrayElement = Math.floor(Math.random() * (46));
             context.font = "17px Arial";
